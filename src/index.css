@@ -10,10 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-.section {
-  height: 220vh;
-}
-
 .car {
   height: 200px;
   position: absolute;

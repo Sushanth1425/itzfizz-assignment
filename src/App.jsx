@@ -23,7 +23,7 @@ export default function App() {
       scrollTrigger: {
         trigger: ".section",
         start: "top top",
-        end: "+=2000",
+        end: "+=2500",
         scrub: true,
         pin: ".track"
       },
@@ -63,7 +63,7 @@ export default function App() {
   const text= ["WELCOME", "ITZFIZZ"];
 
   return (
-    <div className="section h-[220vh] bg-[#c1bbbb] text-white overflow-x-hidden">
+    <div className="section h-[300vh] bg-[#c1bbbb] text-white overflow-x-hidden">
       <div className="track top-0 h-screen flex items-center justify-center">
         <div className="road w-full h-[200px] bg-black relative overflow-hidden">
           <img src="/itzfizz-assignment/car.png" className="car" ref={carRef} alt="car"/>
