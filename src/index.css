@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: white;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.section {
+  height: 220vh;
+}
+
+.track {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.road {
+  width: 100%;
+  height: 220px;
+  background: linear-gradient(90deg, #22c55e, #4ade80, #16a34a);
+  position: relative;
+  overflow: hidden;
+}
+
+.car {
+  height: 180px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  z-index: 10;
+}
+
+.trail {
+  height: 180px;
+  background: linear-gradient(90deg, #45db7d, transparent);
+  position: absolute;
+  top: 20px;
+  width: 0;
+  filter: blur(8px);
+}
+
+.value-add {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: 10px;
+  display: flex;
+}
+
+.word {
+  margin: 0 40px;
+  display: flex;
+}
+
+.value-letter {
+  opacity: 0;
+}
+
+.text-box {
+  opacity: 0;
+  transform: translateY(50px);
+  position: absolute;
+  padding: 25px;
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+#box1 { top: 8%; right: 30%; }
+#box2 { bottom: 15%; right: 30%; }
+#box3 { top: 8%; right: 5%; }
+#box4 { bottom: 15%; right: 5%; }
+
+.num-box {
+  font-size: 42px;
+  font-weight: bold;
+}
