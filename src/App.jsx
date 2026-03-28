@@ -23,7 +23,7 @@ export default function App() {
       scrollTrigger: {
         trigger: ".section",
         start: "top top",
-        end: "bottom top",
+        end: "+=2000",
         scrub: true,
         pin: ".track"
       },
@@ -87,7 +87,7 @@ export default function App() {
           <span className="num-box">23%</span> Reduced bounce rate
         </div>
 
-        <div className="text-box bg-purple-500 border-purple-400 hover:bg-purple-500 hover:scale-105 transition-all duration-300" id="box3">
+        <div className="text-box bg-red-500 border-purple-400 hover:bg-red-500 hover:scale-105 transition-all duration-300" id="box3">
           <span className="num-box">27%</span> More conversions
         </div>
 
